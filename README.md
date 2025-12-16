@@ -1,7 +1,5 @@
 # Just-love
 بيع أجهزة الكترونية
-import React, { useEffect, useState } from "react";
-
 // متجر المعسلات - مكون React واحد بواجهة RTL (Tailwind) // ملاحظات: هذا مكون قابل للتطوير - يمكنك ربطه بباكند، Stripe أو بوابة دفع أخرى.
 
 export default function HookahShop() { // عينات منتجات (يمكن استبدالها ببيانات من API لاحقًا) const sampleProducts = [ { id: 1, name: "تفاحتين - معسّل 250غ", price: 45, flavor: "تفاح", strength: "متوسط", image: "https://picsum.photos/seed/1/400/300", description: "خلطة تفاح طازجة مع لمسة حلوة.", stock: 20, }, { id: 2, name: "عنب أحمر - معسّل 250غ", price: 50, flavor: "عنب", strength: "قوي", image: "https://picsum.photos/seed/2/400/300", description: "نكهة عنب غنيّة وكثيفة.", stock: 12, }, { id: 3, name: "نعناع بارد - معسّل 250غ", price: 48, flavor: "نعناع", strength: "خفيف", image: "https://picsum.photos/seed/3/400/300", description: "نعناع منعش لحمّاس هادئ.", stock: 30, }, ];
